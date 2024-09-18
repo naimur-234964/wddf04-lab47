@@ -1,0 +1,30 @@
+Create a Job Portal Full Responsive Website
+
+1. 	4 Page website
+    a.	 Homepage Page:  
+        i.	 Slider (Full wide, Add minimum three image with scrolling) 
+        ii.	 Job Categories (List of all Job Categories) 
+        iii.	Poplar Job List  
+        iv.	Visitor’s feedback 
+    
+    b.	About us Page: 
+        i.	Jobseeker profile with text (3 Job Seeker)
+        ii.	About Company with image.
+
+    c.	Contact us Page: 
+        i.	Contact form.
+        ii.	Contact Information (Address, Email, Phone number)
+        iii.	Perform email validation
+        iv.	Perform mobile number validation (Number only, Number limit 11 digit)
+        v.	Integrate google map in the address location. 
+
+    d.	FAQ Page: 
+        i.	Beautiful Collapsible 5 question & answer using JavaScript
+        
+2. 	Full container wide navigation menu with mouse hover effect
+3. 	Confirmation popup window when submit the contact form
+4. 	CSS framework 
+5. 	Unordered list band members using CSS styles (Background color, Hover effect, Border, Radius without using framework help)
+6. 	External link with ‘target’ blank attribute
+7. 	Current Date & Time using Javascript8.    Include External CSS & JavaScript file
+9.    Internal pages linking
