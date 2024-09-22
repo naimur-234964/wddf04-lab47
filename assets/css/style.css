@@ -1,6 +1,6 @@
 /* Common Code Start */
 :root{
-    --primary-color: #78D400;
+    --primary-color: #78d400;
     --light-color: #fff;
     --dark-color: #000;
 }
@@ -16,6 +16,8 @@
 
 /* Navbar Start */
 #navbar{
+    background-color: rgba(120, 212, 0,0.5);
+    backdrop-filter: blur(10px);
     .nav-link{
         color: var(--dark-color);
         margin: 0px 10px;
