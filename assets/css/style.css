@@ -4,6 +4,13 @@
     --light-color: #fff;
     --dark-color: #000;
 }
+
+.title{
+    h1{
+        color: var(--primary-color);
+        font-weight: 600;
+    }
+}
 /* Common Code End */
 
 
