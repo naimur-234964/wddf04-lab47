@@ -11,6 +11,22 @@
         font-weight: 600;
     }
 }
+
+.text-primar{
+    color: var(--primary-color);
+}
+
+.btn-outline-success{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    
+    &:hover{
+        color: var(--light-color);
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        
+    }
+}
 /* Common Code End */
 
 
