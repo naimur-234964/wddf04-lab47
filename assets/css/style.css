@@ -1,68 +1,93 @@
 /* Common Code Start */
-:root{
+:root {
     --primary-color: #78d400;
     --light-color: #fff;
     --dark-color: #000;
 }
 
-.title{
-    h1{
+.title {
+    h1 {
         color: var(--primary-color);
         font-weight: 600;
     }
 }
 
-.text-primar{
+.text-primar {
     color: var(--primary-color);
 }
 
-.btn-outline-success{
+.btn-outline-success {
     color: var(--primary-color);
     border-color: var(--primary-color);
-    
-    &:hover{
+
+    &:hover {
         color: var(--light-color);
         background-color: var(--primary-color);
         border-color: var(--primary-color);
-        
+
     }
 }
+
 /* Common Code End */
 
 
 /* Navbar Start */
-#navbar{
-    background-color: rgba(120, 212, 0,0.5);
+#navbar {
+    background-color: rgba(120, 212, 0, 0.5);
     backdrop-filter: blur(10px);
-    .nav-link{
+
+    .nav-link {
         color: var(--dark-color);
         margin: 0px 10px;
         padding: 10px 15px;
         transition: .5s ease-in-out;
-        
-        &:hover{
+
+        &:hover {
             color: var(--light-color);
             background: var(--primary-color);
         }
-        
-        &.active{
+
+        &.active {
             color: var(--light-color);
             background: var(--primary-color);
         }
     }
 }
+
 /* Navbar End */
 
 /* Popular section Start */
-#popular{
-    .card{
+#popular {
+    .card {
         --bs-card-spacer-x: 0;
         transition: .3s linear;
 
-        &:hover{
+        &:hover {
             cursor: pointer;
             box-shadow: 0px 0px 20px 5px rgb(182, 175, 175);
         }
     }
 }
+
 /* Popular section End */
+
+/* Footer Section Start */
+#footer {
+    background-color: rgba(120, 212, 0, .7);
+
+    p {
+        color: var(--dark-color);
+    }
+
+    a {
+        color: var(--dark-color);
+        text-decoration: none;
+        transition: .3s;
+        
+        &:hover {
+            color: #79865f;
+        }
+    }
+}
+
+/* Footer Section End */
